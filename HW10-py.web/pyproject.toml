@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "HW10-py.web"
+version = "0.1.0"
+description = ""
+authors = ["Vlad96Kir <130667144+Vlad96Kir@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^4.2.7"
+psycopg2-binary = "^2.9.9"
+pillow = "^10.1.0"
+bson = "^0.5.10"
+pymongo = "^4.6.0"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
